@@ -71,3 +71,7 @@ Categorias:
 ## Clean Architecture
 Design de código vs Arquitetura: a arquitetura é uma visão de alto nivel de como você vai modelar seu sistema, por exemplo como você organiza seus pacotes (clean arch, hexagonal arch ...) já o design é uma visão de nivel mais baixo, do código em si (SOLID, DDD, Design Patterns ...)
 
+Id não é um conceito do dominio da aplicação, o pessoal de negócios não fala sobre o Id, nós assumimos isso por trabalharmos com banco de dados relacionais, adicionando o ID no dominio nós levamos uma questão de infraestrutura para ele e de acordo com o Clean Arch o dominio tem que ser totalmente desacoplado dela.
+
+Entidade: objeto que conseguimos diferenciar por meio de alguma identificação, ex: cpf
+Value Object: objeto que não possui identificação 
